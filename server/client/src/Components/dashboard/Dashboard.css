@@ -1,0 +1,131 @@
+/*comment out from line no 3 to 52 to use Ankit's Navbar */
+ .navbar {
+    background-color: rgb(32, 32, 32);
+    overflow: hidden;
+    box-shadow: 2px 2px #000000; 
+    display: flex;
+    border-radius: 10px;
+    top: 0;
+    width: 99vw;
+  
+  } 
+  /*
+  .navbar-items:hover {
+   Change the color of links on hover 
+  .navbar-items:hover {
+    background-color: black;
+    color: white;
+  } 
+  
+  // Add a color to the active/current link 
+
+   .navbar-items:active {
+    background-color: black;
+    color: white;
+  } 
+
+  // Right-aligned section inside the top navigation 
+  .topnav-right {
+  // Right-aligned section inside the top navigation 
+   .topnav-right {
+    float: right;
+  }
+  .navbar-items{
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+  }
+  .navbar-title{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    float:right;
+    padding-left: .5em;
+    margin-top: .1em;
+  }
+  .navbar-img{
+    margin-left: .5em;
+    height: 3.5em;
+    width: 3.5em
+  }
+  } */
+  .flex-column{
+    background-color:rgb(32, 32, 32);
+    float: right;
+    text-align: center ;
+    color: white;
+    height: fit-content;
+    padding: 1em;
+    margin:1em;
+    box-shadow: 2px 2px #000000; 
+    justify-content:first baseline;
+    display: flex;
+    border-radius: 10px;
+    align-items:center;
+  
+  }
+  .sidebar-img{
+    height: 5em;
+    width: 5em;
+  }
+  
+  .sidebar-items{
+    text-align: left;
+    margin: 2em 1em 2em 1em;
+    color: rgb(179, 77, 9);
+    display:block;
+    justify-items: center;
+  }
+  .sidebar-items input{
+    background-color: transparent;
+    margin: .5em 0em .5em 0em;       
+  }
+  
+  .mainContainer{
+    text-align:center;
+  }
+  
+  .firstBox{
+    padding: 1em;
+    margin:1em;
+    /* box-shadow: 2px 2px #000000;  */
+    justify-content: center;
+    display: flex;
+    /* background-color:rgb(43, 39, 39); */
+    border-radius: 10px;
+    width:auto;
+    height: fit-content;
+    align-items:center;
+    padding-left: 1em;
+    overflow: hidden;
+
+  
+  }
+  .firstBox2{
+    padding: 1em;
+    margin:1em;
+    box-shadow: 2px 2px #000000; 
+    justify-content: center;
+    display: flex;
+    background-color:rgb(43, 39, 39);
+    border-radius: 10px;
+    width:auto;
+    height: fit-content;
+    align-items:center;
+    padding-left: 1em;
+    overflow: hidden;
+
+  
+  }
+  .box {
+    justify-content: center;
+    /* margin:1em 4em; */
+    background-color: green;
+    padding: 1em;
+    border-radius: 1rem;
+    box-shadow: 3px 3px #000000;
+    overflow: hidden;
+    margin: auto;
+
+  }     
+  

@@ -1,0 +1,31 @@
+{
+  "name": "expense-manager",
+  "version": "1.0.0",
+  "description": "expense tracking web app",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server",
+    "server": "nodemon server/server --ignore './server/client/'",
+    "client": "npm start --prefix server/client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix server/client && npm run build --prefix server/client && npm install --prefix server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Satvik-Sinha/E-KhataBook.git"
+  },
+  "author": "Ankit Kushawaha, Satvik Sinha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Satvik-Sinha/E-KhataBook/issues"
+  },
+  "homepage": "https://github.com/Satvik-Sinha/E-KhataBook#readme",
+  "devDependencies": {
+    "concurrently": "^6.3.0",
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "config": "^3.3.6",
+    "react-external-link": "^1.2.2"
+  }
+}

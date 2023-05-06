@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://root:ExpenseManager@expensemanager.ydqmv.mongodb.net/User?retryWrites=true",
+    "TOKEN_KEY": "WEARETHEDEVELOPERSOFEXPENSETRACKERAKAEKHATABOOK"
+}
