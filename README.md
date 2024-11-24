@@ -27,3 +27,4 @@ An Expense Tracking Web Application to track your expenses. Not a normal expense
 <h2 align="centre">Contributors :- </h2>
 <ul>Satvik Sinha</ul>
 <ul>Ankit Kushawaha</ul>
+<ul>Rishabh Dwivedi</ul>
